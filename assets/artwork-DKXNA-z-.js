@@ -1,0 +1,1 @@
+var e=new Map(Object.entries(Object.assign({})).map(([e,t])=>[e.split(`/`).pop().replace(/\.[^.]+$/,``),t])),t=t=>e.get(t);export{t};
